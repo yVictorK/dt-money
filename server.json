@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "venda",
+      "price": 14000,
+      "createdAt": "Mon Jun 02 2025 02:49:22 GMT-0400"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "Mon Jun 04 2025 02:45:22 GMT-0400"
+    },
+    {
+      "id": 3,
+      "description": "HotDog",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 20,
+      "createdAt": "Mon Jun 05 2025 02:47:22 GMT-0400"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-06-02T18:15:18.742Z",
+      "id": 4
+    },
+    {
+      "description": "Yorgut de Banana",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-06-02T18:31:53.061Z",
+      "id": 6
+    },
+    {
+      "description": "Moto",
+      "price": 14000,
+      "category": "Veículo",
+      "type": "outcome",
+      "createdAt": "2025-06-03T02:35:33.654Z",
+      "id": 7
+    }
+  ]
+}

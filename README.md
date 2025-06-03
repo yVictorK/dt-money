@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# 💵 Projetos de Aprimoramento nos conhecimentos em React, TypeScript e Consumo de API's
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto consiste em um `controlador de gastos` que o usuário pode adicionar valores que ele recebeu e quanto ele gastou, podendo vizualizar o total ganho, total gasto e seu saldo final
+Nele foram utilizados os conceitos de consumo de API's utilizando o json server como API, componentização, hooks do React, como useEffect, useState, useMemo e a biblioteca react-context-selector . Além disso foi utilizado o typescript com styled components para a estilização da página.
 
-Currently, two official plugins are available:
+## 💻 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Veja como funciona: 
 
-## Expanding the ESLint configuration
+![Tela Inicial](https://github.com/user-attachments/assets/ca32badd-3eca-422f-90cd-d7b5149d5812)
+![Tela de criação de nova transação](https://github.com/user-attachments/assets/03325b3d-d940-4f34-8da2-ccbaaf2c3277)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ▶️ Como executar o projeto localmente
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+No seu terminal 
+
+```bash
+# Clone o repositório
+git clone https://github.com/yVictorK/dt-money.git
+
+# Acesse a pasta do projeto
+cd ProjetoPomodoro
+
+# Instale as dependências
+npm install
+# ou, se preferir usar yarn
+yarn install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+# ou
+yarn dev
+
+# Tambem inicie o servidor backend da aplicação
+npm run dev:server
+
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+#ProjetoControleDeGastos
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
