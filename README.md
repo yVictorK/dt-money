@@ -20,7 +20,7 @@ git clone https://github.com/yVictorK/dt-money.git
 ```
 ```bash
 # Acesse a pasta do projeto
-cd ProjetoPomodoro
+cd dt-money
 ```
 ```bash
 # Instale as dependências
