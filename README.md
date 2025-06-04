@@ -17,24 +17,22 @@ No seu terminal
 ```bash
 # Clone o repositório
 git clone https://github.com/yVictorK/dt-money.git
-
+```
+```bash
 # Acesse a pasta do projeto
 cd ProjetoPomodoro
-
+```
+```bash
 # Instale as dependências
 npm install
-# ou, se preferir usar yarn
-yarn install
-
+```
+```bash
 # Inicie o servidor de desenvolvimento
 npm run dev
-# ou
-yarn dev
-
+```
+```bash
 # Tambem inicie o servidor backend da aplicação
 npm run dev:server
-
-
 ```
 
 #ProjetoControleDeGastos
