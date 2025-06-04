@@ -5,16 +5,17 @@ Nele foram utilizados os conceitos de consumo de API's utilizando o json server 
 
 ## 🛠️ Principais Tecnologias Utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="30" alt="react logo"/>
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"/>
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" height="30" alt="json server logo" />
-<img width="12" />
-<img src="[https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg](https://react-hook-form.com/images/logo/react-hook-form-logo-only.svg)" height="30" alt="react hook form logo" />
-          
+<div align="left">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="30" alt="react logo"/>
+          <img width="12" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"/>
+          <img width="12" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
+          <img width="12" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" height="30" alt="json server logo" />
+          <img width="12" />
+          <img src="https://react-hook-form.com/images/logo/react-hook-form-logo-only.svg" height="30" alt="react hook form logo" />
+</div>          
           
 
 ## 💻 Demonstração
